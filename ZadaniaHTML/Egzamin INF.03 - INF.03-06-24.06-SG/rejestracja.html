@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejestracja</title>
+    <link rel="stylesheet" href="styl.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Formularz rejestracyjny konferencji <em>Nasze Kwiaty</em></h1>
+    </header>
+        <main>
+            <form>
+                <div id="blok1">
+                    <h2>Dane osobowe</h2>
+                    <input type="text" id="imie" placeholder="Wpisz imie..." required>
+                    
+                    <input type="text" id="nazwisko" placeholder="Wpisz nazwisko..." required>
+                    <button type="button" onclick="nastepnaKarta1()">Następna karta</button>
+                    
+                </div>
+                    <div id="blok2">
+                        <input type="email" placeholder="Wpisz email..." >
+                        <input type="tel" placeholder="Twój numer telefonu..." >
+                        <button type="button" onclick="nastepnaKarta2()" >Następna karta</button>
+                    </div>
+                        <div id="blok3">
+                            <h2>Haslo do logowania</h2>
+                            <input type="password" id="haslo1" placeholder="Podaj haslo" >
+                            <input type="password" id="haslo2" placeholder="Powtorz haslo..." >
+                            <button type="button" onclick="zatwierdz()">Zatwierdz</button>
+                        </div>
+            </form>
+        </main>
+
+            <footer>
+                <div>
+                    <video controls="cotrols" src="motyl.mp4">
+                        Przegladarka nie obsluguje tego formatu
+                    </video>
+                </div>
+                        <div>
+                            <table>
+                                <tr><td>9:00 - 12:00 </td><td>Pielegnacja roslin</td></tr>
+                                <tr><td>13:00 - 15:00</td><td>Targi kwaitowe</td></tr>
+                            </table>
+                        </div>
+                                <div>
+                                    <p><a href="https://kwiaty.pl/">Internetowa Kwiaciarnia</a></p>
+                                </div>
+                                        <div>
+                                            <p>Formularz wykonal Nicola Allocca 06210212817</p>
+                                        </div>
+            </footer>
+    
+</body>
+</html>
