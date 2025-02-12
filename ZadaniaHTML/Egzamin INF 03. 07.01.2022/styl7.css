@@ -1,0 +1,99 @@
+/* Reset i podstawowy krój czcionki */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Baner i stopka */
+  header, footer {
+    background-color: rgb(70, 130, 180);
+    color: white;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Blok główny */
+  main {
+    height: 62.4vh;
+    background-color: rgb(176, 196, 222);
+    padding: 50px;
+    text-align: center;
+  }
+  
+  main img {
+    padding: 3px;
+    border: 1px dashed blue;
+    border-radius: 10px;
+  }
+  
+  /* Kontener dla bloków lewego i prawego */
+  .columns {
+    display: flex;
+  }
+  
+  /* Blok lewy */
+  .left {
+    background-color: rgb(70, 130, 180);
+    color: white;
+    height: 300px;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .left h3 {
+    margin-bottom: 10px;
+  }
+  
+  .left img {
+    height: 40%;  /* 40% wysokości bloku (300px → około 120px) */
+    margin: 5px;
+  }
+  
+  .left img:hover {
+    border: 1px solid white;
+  }
+  
+  /* Blok prawy */
+  .right {
+    background-color: rgb(70, 130, 180);
+    color: white;
+    height: 300px;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .right h3 {
+    margin-bottom: 10px;
+  }
+  
+  .right table {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .right th, 
+  .right td {
+    padding: 5px;
+    border: 1px solid white;
+  }
+  
+  .right p {
+    margin-top: 10px;
+  }
+  
+  .right img {
+    display: block;
+    margin: 10px auto;
+  }
+  
