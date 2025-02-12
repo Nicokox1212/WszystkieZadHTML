@@ -1,4 +1,4 @@
-/* Reset i podstawowy krój czcionki */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
     height: 100vh;
   }
   
-  /* Baner i stopka */
+
   header, footer {
     background-color: rgb(70, 130, 180);
     color: white;
@@ -22,7 +22,7 @@
     justify-content: center;
   }
   
-  /* Blok główny */
+  
   main {
     height: 62.4vh;
     background-color: rgb(176, 196, 222);
@@ -36,12 +36,12 @@
     border-radius: 10px;
   }
   
-  /* Kontener dla bloków lewego i prawego */
+
   .columns {
     display: flex;
   }
   
-  /* Blok lewy */
+
   .left {
     background-color: rgb(70, 130, 180);
     color: white;
@@ -55,7 +55,7 @@
   }
   
   .left img {
-    height: 40%;  /* 40% wysokości bloku (300px → około 120px) */
+    height: 40%;  
     margin: 5px;
   }
   
@@ -63,7 +63,7 @@
     border: 1px solid white;
   }
   
-  /* Blok prawy */
+
   .right {
     background-color: rgb(70, 130, 180);
     color: white;
