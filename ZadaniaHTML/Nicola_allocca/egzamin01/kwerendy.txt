@@ -1,0 +1,12 @@
+kwerenda1
+INSERT INTO zawody_wedkarskie VALUES (NULL,2,4,'2018-09-28', 'Tomasz Kowal');
+
+kwerenda2
+SELECT data_zawodow FROM zawody_wedkarskie WHERE sedzia = 'Jan Kowalewski';
+
+kwerenda3
+SELECT imie , nazwisko FROM karty_wedkarskie as k, zawody_wedkarskie as z WHERE 
+z.Karty_wedkarskie_id =k.id AND z.id = 3;
+
+kwerenda4
+UPDATE karty_wedkarskie SET punkty=10 WHERE id=2;
